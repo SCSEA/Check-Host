@@ -11,3 +11,28 @@ TCP port checks the possibility of a TCP connection to host's specified port fro
 DNS retrieves info about hostname or IP from nameservers around the world. You could easily monitor and check updates of DNS records with this service.
 
 Bookmarklet allows you to perform checks of websites easlier. Save bookmarklet in your bookmarks and use anytime it you need.
+
+# Installation
+
+pkg update && pkg upgrade -y
+
+pkg install git
+
+pkg install python3
+
+git clone https://github.com/Yousuf9963/Check-Host.git
+
+cd Check-Host
+
+pip3 install requests
+
+pip3 install prettytable
+
+python3 check-host.py
+
+# Follow me Thank you...
+
+# Donation
+
+If you want to Donate Kindly click here Thank you.: https://www.buymeacoffee.com/junioprogrammer
+
