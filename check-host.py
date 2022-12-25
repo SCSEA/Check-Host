@@ -32,7 +32,7 @@ help_menu = """ iplook: website location search, IP address
 
  examples:
 
- | python3 check-host.py iplook 1.1.1.1
+ | python3 check-host.py iplook 1.2.3.4
 
  | python3 check-host.py iplook example.com
 
@@ -46,7 +46,7 @@ help_menu = """ iplook: website location search, IP address
 
  examples:
 
- | python3 check-host.py ping 127.0.0.1
+ | python3 check-host.py ping 1.2.3.4
 
  | python3 check-host.py ping http://example.com
 
@@ -62,7 +62,7 @@ help_menu = """ iplook: website location search, IP address
 
  examples:
 
- | python3 check-host.py http https://127.0.0.1:443
+ | python3 check-host.py http https://1.2.3.4:443
 
  | python3 check-host.py http http://example.com
 
@@ -92,7 +92,7 @@ help_menu = """ iplook: website location search, IP address
 
  examples:
 
- | python3 check-host.py dns 1.2.3.3
+ | python3 check-host.py dns 1.2.3.4
 
  | python3 check-host.py dns http://example.com
 
@@ -112,7 +112,7 @@ def LOGO_PART():
 
 	/ __/ _ \/ -_) __/  '_/___/ _ \/ _ \(_-</ __/
 
-	\__/_//_/\__/\__/_/\_\   /_//_/\___/___/\__/ v1.0 / https://github.com/diasnull
+	\__/_//_/\__/\__/_/\_\   /_//_/\___/___/\__/ version: 1.0 / https://github.com/Yousuf9963/IP-Shower
 
 	                    {YELLOW}ــــــــﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩﮩ٨ــــ{RESET}
 
