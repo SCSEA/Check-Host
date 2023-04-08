@@ -24,9 +24,7 @@ git clone https://github.com/Yousuf9963/Check-Host.git
 
 cd Check-Host
 
-pip3 install requests
-
-pip3 install prettytable
+pip3 install -r requirements.txt
 
 python3 check-host.py
 
