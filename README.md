@@ -26,6 +26,8 @@ cd Check-Host
 
 pip3 install -r requirements.txt
 
+chmod +x *
+
 python3 check-host.py
 
 # Follow me Thank you...
