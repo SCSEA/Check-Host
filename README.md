@@ -20,7 +20,7 @@ pkg install git
 
 pkg install python3
 
-git clone https://github.com/Yousuf9963/Check-Host.git
+git clone https://github.com/SCSEA/Check-Host.git
 
 cd Check-Host
 
